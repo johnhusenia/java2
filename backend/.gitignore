@@ -1,20 +1,17 @@
-# Ignore node_modules for the backend
+# Ignore node_modules for backend
 node_modules/
 
 # Ignore logs
 *.log
 
-# Ignore local environment files
+# Ignore local environment variables
 .env
 
-# Ignore debug or IDE files
-.vscode/
-.idea/
-
-# Ignore coverage reports if any
+# Ignore coverage reports (if any)
 coverage/
 
-# Ignore any build or temporary files
+# Ignore temporary or build files (if applicable)
 dist/
+
 
 vercel.json
