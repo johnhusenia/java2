@@ -1,0 +1,15 @@
+# Ignore React build output directory
+/build
+
+# Ignore npm-debug logs
+npm-debug.log*
+
+# Ignore node_modules for the frontend
+node_modules/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore local environment files (if needed)
+.env.local
+.env.development
